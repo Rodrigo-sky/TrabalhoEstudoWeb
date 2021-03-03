@@ -1,0 +1,65 @@
+.header{
+    background-color: #c0c0c0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    text-align: left;
+}
+
+.header_area{
+    padding: 20px;
+
+}
+.menu_area{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.menu_area a{
+color: black;
+text-align: right;
+}
+
+.telaTop{
+    float: inline-end;
+    padding-top: 18px; 
+}
+
+.modal-body img {
+    width: 100%;
+}
+
+.testeporra{
+    background-color: lawngreen;
+}
+
+.modalFilme{
+    size: auto;
+}
+
+
+
+.menu_area a:hover{color: rgb(31, 31, 31);}
+
+
+
+.card{
+    margin-bottom: 20px;
+
+}
+
+
+
+
+.footer{
+    background-color: #c0c0c0;
+    margin-top: 20px;
+    text-align: center;
+}
+.footer_area{
+    padding: 45px;
+}
+
