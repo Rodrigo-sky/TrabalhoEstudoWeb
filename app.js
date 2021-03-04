@@ -27,12 +27,12 @@ const API_KEY = 'a6fac8ae05f349c34a524ec87df44498';
 //     // Preencher a DIV com o texto HTML
 //     divTela.innerHTML = texto;
 // }
-function caralha() { 
+function aletta() { 
     alert('funcionou')
 };
 
 function exibePopular(){
-    caralha();
+    aletta();
     let divPopulares = document.getElementById('telaPopular');
     let texto = '';
 
