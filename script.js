@@ -64,9 +64,10 @@ function PesquisaFilmes () {
         data: {
             api_key: 'a6fac8ae05f349c34a524ec87df44498',
             language: 'pt-BR',
-            query: $('#txtSearch').html
+            query: document.getElementById("txtSearch").value
         }
     })
+    
     
     // Receber o JSON
     .done(function (data) {
@@ -106,6 +107,8 @@ function PesquisaFilmes () {
     }); 
 
 }
+
+
 
 
 $( document ).ready(function () {
