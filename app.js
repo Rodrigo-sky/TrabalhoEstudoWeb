@@ -1,32 +1,32 @@
 const API_KEY = 'a6fac8ae05f349c34a524ec87df44498';
 
-// function exibeFilmes () {
-//     let divTela = document.getElementById('tela');
-//     let texto = '';
+function exibeFilmes () {
+    let divTela = document.getElementById('tela');
+    let texto = '';
 
-//     // Montar texto HTML das noticias
-//     let dados = JSON.parse (this.responseText);
-//     for (i=0; i< dados.articles.length; i++) {
-//         let noticia = dados.articles[i];
-//         let data = new Date (noticia.publishedAt);
+    // Montar texto HTML das noticias
+    let dados = JSON.parse (this.responseText);
+    for (i=0; i< dados.articles.length; i++) {
+        let noticia = dados.articles[i];
+        let data = new Date (noticia.publishedAt);
 
-//         texto = texto + `
-//             <div class="box-noticia">
-//                 <img src="${noticia.urlToImage}" alt="">
-//                 <span class="titulo">${noticia.title}</span><br>
-//                 <span class="creditos">${data.toLocaleDateString ()} - 
-//                     ${noticia.source.name} - 
-//                     ${noticia.author}</span><br>
-//                 <span class="text">
-//                 ${noticia.content} <a href="${noticia.url}">Leia mais ...</a>
-//                 </span>
-//             </div>            
-//         `;
-//     };
+        texto = texto + `
+            <div class="box-noticia">
+                <img src="${noticia.urlToImage}" alt="">
+                <span class="titulo">${noticia.title}</span><br>
+                <span class="creditos">${data.toLocaleDateString ()} - 
+                    ${noticia.source.name} - 
+                    ${noticia.author}</span><br>
+                <span class="text">
+                ${noticia.content} <a href="${noticia.url}">Leia mais ...</a>
+                </span>
+            </div>            
+        `;
+    };
 
-//     // Preencher a DIV com o texto HTML
-//     divTela.innerHTML = texto;
-// }
+    // Preencher a DIV com o texto HTML
+    divTela.innerHTML = texto;
+}
 function aletta() { 
     alert('funcionou')
 };
